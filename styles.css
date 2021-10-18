@@ -1,235 +1,239 @@
-
 * {
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
-    color: rgb(88, 70, 70);
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: rgb(88, 70, 70);
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
 }
-
 
 .main-header {
-    background-color: rgba(255, 231, 231, 0.6);
-    background-image: url("Images/Header Background.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 30px;
+  background-color: rgba(255, 231, 231, 0.6);
+  background-image: url("Images/Header Background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
 }
 .shop-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-weight: normal;
-    color: rgb(82, 73, 73);
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-weight: normal;
+  color: rgb(240, 158, 66);
 }
 
 .content-section {
-    margin: 1em;
+  margin: 1em;
 }
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
 
 .section-header {
-    
-    font-weight: normal;
-
+  font-weight: normal;
 }
 
 .btn-danger {
-    color: white;
-    background-color: #EB5757;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+  background-color: #cc4c4c;
 }
 
 .tour-row {
-    border-bottom: 1px solid black;
-    padding-bottom: 1em;
-    max-width: 19%;
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  max-width: 19%;
 }
 
 .shop-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .shop-item {
-    margin: 30px;
+  margin: 30px;
 }
 
 .shop-item-title {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-    color: #333;
-    text-align: center;
-    margin-bottom: 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .shop-item-details {
-    display: flex;
-    padding: 5px;
-    align-items: center;
-    padding: 5px;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  padding: 5px;
 }
 
 .shop-item-price {
-    flex-grow: 1;
-    color: #333;
-    font-size: 1em;
+  flex-grow: 1;
+  color: #333;
+  font-size: 1em;
 }
 
 .shop-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.shop-item-button {
+    border: 1px solid #b47f6a;
+    background-color: rgb(246, 237, 245);
+    border-radius: 5px;
 }
 
 .cart-header {
-    color: #333;
+  color: #333;
 }
 
 .cart-row {
-    display: flex;
+  display: flex;
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .cart-row:last-child .cart-column {
-    border: none;
+  border: none;
 }
 
 .cart-column {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid black;
-    margin-right: 1.5em;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
 }
-
-
 
 .cart-item-image {
-    border-radius: 10px;
-    width: 75px;
-    height: auto;
-    border-radius: 10px;
+  border-radius: 10px;
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
 }
 
-
 .cart-quantity-input {
-    height: 34px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid #56CCF2;
-    background-color: #eee;
-    color: #333;
-    width: 50px;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    margin-right: 25px;
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #b47f6a;
+  background-color: rgb(246, 237, 245);
+  color: #333;
+  width: 50px;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .cart-row:last-child .cart-column {
-    border: none;
+  border: none;
 }
 
 .cart-total {
-    text-align: end;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
+  text-align: end;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .cart-total-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: black;
-    margin-right: 0px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 0px;
 }
 .cart-total-price {
-    color: #333;
-    font-size: 1.1em;
+  color: #333;
+  font-size: 1.1em;
 }
 .btn-purchase {
-    display: block;
-    margin: 40px auto 80px auto;
-    font-size: 1.75em;
+  display: block;
+  border: 1px solid #b47f6a;
+  background-color: rgb(246, 237, 245);
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+  border-radius: 5px;
 }
 
 /* The sidebar menu */
 .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript - just assign for now*/
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: rgb(254,232,223);
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript - just assign for now*/
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgb(254, 232, 223);
 
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-  }
-  
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
 
-  
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
-  
-  /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(246, 175, 147);
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(221, 154, 154);
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
   }
-  
-  /* The button used to open the sidebar */
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: rgb(246, 175, 147);
-    color: rgb(0, 0, 0);
-    padding: 10px 15px;
-    border: none;
+  .sidebar a {
+    font-size: 18px;
   }
-  
-  .openbtn:hover {
-    background-color: rgb(221, 154, 154);
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
+}
