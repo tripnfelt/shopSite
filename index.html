@@ -5,19 +5,46 @@
         <title>Store</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="This is the description">
         <link rel="stylesheet" href="styles.css" />
         <script src = "index.js" async></script>
     </head>
     <body>
-        <header class="main-header">
 
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeCart()">X</a>
+            <section class = "">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+
+                <div class="cart-items">
+               
+        
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openCart()">Open Cart</button>  
+            
+
+        <header class="main-header">
             <h1 class="shop-name shop-name-large">Cool Shop</h1>
         </header>
         <section class="container content-section">
             <h2 class="section-header">Items</h2>
             <div class="shop-items">
-                <button class="openbtn" onclick="openNav()">Open Cart</button> 
+                
                 <div class="shop-item">
                     <span class="shop-item-title">Item 1</span>
                     <img class="shop-item-image" src="Images/Item1.png">
@@ -48,45 +75,9 @@
         </section>
 
 
+      
+    </div>
         
-        <section id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <h2 class="section-header">CART</h2>
-            <div class="cart-row">
-                <span class="cart-item cart-header cart-column">ITEM</span>
-                <span class="cart-price cart-header cart-column">PRICE</span>
-                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-            </div>
-            <div class="cart-items">
-                <div class="cart-row">
-                    <div class="cart-item cart-column">
-                        <img class="cart-item-image" src="Images/Item1.png" width="100" height="100">
-                        <span class="cart-item-title">Item 1</span>
-                    </div>
-                    <span class="cart-price cart-column">$14.00</span>
-                    <div class="cart-quantity cart-column">
-                        <input class="cart-quantity-input" type="number" value="1">
-                        <button class="btn btn-danger" type="button">REMOVE</button>
-                    </div>
-                </div>
-                <div class="cart-row">
-                    <div class="cart-item cart-column">
-                        <img class="cart-item-image" src="Images/Item3.png" width="100" height="100">
-                        <span class="cart-item-title">Item3</span>
-                    </div>
-                    <span class="cart-price cart-column">$299.99</span>
-                    <div class="cart-quantity cart-column">
-                        <input class="cart-quantity-input" type="number" value="2">
-                        <button class="btn btn-danger" type="button">REMOVE</button>
-                    </div>
-                </div>
-            </div>
-            <div class="cart-total">
-                <strong class="cart-total-title">Total</strong>
-                <span class="cart-total-price">$100000.00</span>
-            </div>
-            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-        </section>
     </body>
 </html>
 
